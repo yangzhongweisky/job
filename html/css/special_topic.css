@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS 专题页 create 2014-1-13 by yangzw*/
+/*banner s*/
+.special_main{
+	display:block;
+	margin:20px auto;
+	width:1200px;
+	height:auto;
+	overflow:hidden;
+	padding-bottom:30px;
+}
+.special_banner{
+	display:block;
+	width:1200px;
+	height:300px;
+}
+
+.special_banner img{
+	display:block;
+	widows:1200px;
+	height:300px;
+}
+/*focus*/
+#focus {
+	width:1200px;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+}
+#focus ul {
+	position:absolute;
+}
+#focus ul li {
+	float:left;
+	width:1200px;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+}
+#focus ul li div {
+	position:absolute;
+	overflow:hidden;
+}
+#focus .btnBg {
+	position:absolute;
+	width:750px;
+	height:20px;
+	left:0;
+	bottom:0;/*background:#000;*/
+}
+#focus .btn {
+	position:absolute;
+	width:750px;
+	height:10px;
+	padding:12px 10px;
+	right:0;
+	bottom:0;
+	text-align:right;
+}
+#focus .btn span {
+	display:inline-block;
+	_display:inline;
+	_zoom:1;
+	width:25px;
+	height:11px;
+	_font-size:0;
+	margin-left:5px;
+	cursor:pointer;
+	background:#fff;
+}
+#focus .btn span.on {
+	background:#fff;
+}
+#focus .preNext {
+	display:none;
+	width:45px;
+	height:100px;
+	position:absolute;
+	top:90px;
+	background:none;
+	cursor:pointer;
+}
+#focus .pre {
+	left:0;
+}
+#focus .next {
+	right:0;
+	background-position:right top;
+}
+/*focus end*/
+/*banner e*/
+.special_title{
+	display:block;
+	margin-top:10px;
+	height:22px;
+	line-height:22px;
+	border-bottom:1px solid #7f7f7f;
+	font-family:"微软雅黑";
+}
+/*special_list s*/
+.special_list{
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+.special_list ul li{
+	display:block;
+	float:left;
+	height:auto;
+	width:360px;
+	overflow:hidden;
+	margin-top:22px;
+}
+.special_list ul li .special_pic{
+	height:300px;
+	width:360px;
+	overflow:hidden;
+}
+.special_list ul li .special_pic:hover{
+	opacity:0.8;
+}
+.special_list .special_name{
+	margin-top:5px;
+	height:22px;
+	line-height:22px;
+	overflow:hidden;
+	
+}
+.special_list .special_name a{
+	color:#5d5d5d;
+	text-decoration:none;
+}
+.special_list .special_name a:hover{
+	text-decoration:underline;
+}
+.special_list .special_time{
+	height:20px;
+	line-height:20px;
+	color:#5d5d5d;
+}
+.special_list .even{
+	margin-left:59px;
+	margin-right:59px;
+}
+/*special_list e*/
+
+/*load more s*/
+.loadMore{
+	margin:35px auto;
+	margin-bottom:0px;
+	width:595px;
+	height:35px;
+	line-height:35px;
+	background:#f2f3f5;
+	
+	text-align:center;
+}
+.loadMore a{
+	color:#51545b;
+}
+.loadMore a:hover{
+	text-decoration:none;
+}
+.loadMore img{
+	vertical-align:middle;
+	margin-right:6px;
+}
+/*load more e*/
